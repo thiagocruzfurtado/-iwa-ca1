@@ -2,7 +2,7 @@ import axios from "axios";
 import { getToken } from "./auth";
 
 const api = axios.create({
-  baseURL: "https://3333-blush-limpet-t484zr8k.ws-eu25.gitpod.io/"
+  baseURL: "https://3333-amaranth-lobster-v7mmb1vr.ws-eu25.gitpod.io/"
 });
 
 api.interceptors.request.use(async config => {
