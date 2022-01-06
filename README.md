@@ -1,5 +1,15 @@
-# -iwa-ca1
---How to run the project--
+# iwa-ca1
+
+*Welcome to MyDiary App* 
+
+Application was developed using Gitpod.io > https://gitpod.io/#https://github.com/thiagocruzfurtado/-iwa-ca1
+
+All of my code was stored in my personal Github repository. > https://github.com/thiagocruzfurtado/-iwa-ca1
+
+This project was bootstrapped with Create React App. > https://create-react-app.dev/
+
+
+*How to run the project*
 
 To initialize the front and back end, follow the steps:
 
@@ -18,3 +28,5 @@ baseURL: "https://3333-xxxxxxxx-xxxxxxx-xxxxxxx.xx-xxxx.gitpod.io/"
 Select "Open Browser" on port 3000 to open the application;
 
 The application is ready to be used!;
+
+
