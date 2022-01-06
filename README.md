@@ -29,4 +29,18 @@ Select "Open Browser" on port 3000 to open the application;
 
 The application is ready to be used!;
 
+*Backend*
+	The Node.js project was started with the “npm init” command, after inserting all the package.json settings, a main Index.js application file was created, in this file the Express server was created, and some libraries and settings were applied to the server. Two files were also imported, AuthController and PostController. 
+The file structure was created in: Controllers, Database, Models, and Utils. 
+The controller files are the routes that the frontend application will consume, within the “AuthController” there are two routes, register and login. 
+Using the authentication strategy “Jwt” (Json Web Token), at PostController CRUD routes were created for handling posts, using middleware for authenticating and protecting routes. It was decided to use files in Json format, composing the database by users.json and posts.json. 
+The Models Post and User was created to manipulate the data and write to the files, a Schema class was defined in the files, and a Model class for each entity, we used the “lodash” and “uuid” library to assist in data manipulation. 
+It was created for database, being two functions, one to obtain the data and the other to write the data in json, the FS library was used for the help. 
+
+*Frontend*
+	ReactJS was used as a framework, a React project was started using the create-react-app configuration package. 
+It was decided the file structure in components, pages, routes, services. 
+The user can login or register using an email and password. 
+For api calls the Axios library was used, and the authentication strategy was through localstorage. 
+Each part of the site was divided into components, footer, header, navbar, postform and listposts.
 
